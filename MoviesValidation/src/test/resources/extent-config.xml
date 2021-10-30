@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+	  <configuration>
+	  	<theme>dark</theme>
+	    <encoding>UTF-8</encoding>
+	    <protocol>https</protocol>
+	    <documentTitle>API Assignment</documentTitle> <!-- This title will be displayed as browser title for the page -->
+	    <reportName>Cucumber Report - TelaDoc</reportName> <!-- This will be your report heading -->
+	    <reportHeadline>Validate the Values based on the Objectives Provided</reportHeadline>
+	    
+	    <scripts>
+			<![CDATA[
+			$(document).ready(function() {
+			            $('#parentWithoutNodes').prop("checked", true).click();
+			$('#test-count-setting > div.modal-footer > a')[0].click();
+			});
+			]]>
+		</scripts>
+	    
+	    
+	    
+	  </configuration>
+</extentreports>

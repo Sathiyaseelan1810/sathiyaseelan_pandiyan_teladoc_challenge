@@ -1,0 +1,262 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Use the Provided API Endpoint and get the total number of movies count based on the movietitle",
+        "description": "",
+        "id": "get-the-total-number-of-movies-count-from-the-provided-api;use-the-provided-api-endpoint-and-get-the-total-number-of-movies-count-based-on-the-movietitle;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5694248400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Build the API endpoint and verify the status code \"maze\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maze",
+                  "offset": 51
+                }
+              ],
+              "location": "GetCountingMovies.build_the_API_endpoint_and_verify_the_status_code(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1498020100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Fetch the total movie count from the endpoint response \"maze\" and \"97\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maze",
+                  "offset": 56
+                },
+                {
+                  "val": "97",
+                  "offset": 67
+                }
+              ],
+              "location": "GetCountingMovies.fetch_the_total_movie_count_from_the_endpoint_response(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 228614100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Fetch the total page count from the endpoint response \"maze\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maze",
+                  "offset": 55
+                },
+                {
+                  "val": "10",
+                  "offset": 66
+                }
+              ],
+              "location": "GetCountingMovies.fetch_the_page_movie_count_from_the_endpoint_response(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3148000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the total movie counts \"97\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "97",
+                  "offset": 33
+                }
+              ],
+              "location": "GetCountingMovies.validate_the_total_movie_counts(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 281500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the total page counts \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 32
+                }
+              ],
+              "location": "GetCountingMovies.validate_the_page_movie_counts(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Use the Provided API Endpoint and get the total number of movies count based on the movietitle",
+        "description": "",
+        "id": "get-the-total-number-of-movies-count-from-the-provided-api;use-the-provided-api-endpoint-and-get-the-total-number-of-movies-count-based-on-the-movietitle;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 227121500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Build the API endpoint and verify the status code \"mazes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mazes",
+                  "offset": 51
+                }
+              ],
+              "location": "GetCountingMovies.build_the_API_endpoint_and_verify_the_status_code(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265163900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Fetch the total movie count from the endpoint response \"mazes\" and \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mazes",
+                  "offset": 56
+                },
+                {
+                  "val": "0",
+                  "offset": 68
+                }
+              ],
+              "location": "GetCountingMovies.fetch_the_total_movie_count_from_the_endpoint_response(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 272384500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Fetch the total page count from the endpoint response \"mazes\" and \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mazes",
+                  "offset": 55
+                },
+                {
+                  "val": "0",
+                  "offset": 67
+                }
+              ],
+              "location": "GetCountingMovies.fetch_the_page_movie_count_from_the_endpoint_response(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 443100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the total movie counts \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 33
+                }
+              ],
+              "location": "GetCountingMovies.validate_the_total_movie_counts(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 410400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the total page counts \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 32
+                }
+              ],
+              "location": "GetCountingMovies.validate_the_page_movie_counts(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Get the Total Number of Movies Count from the Provided API",
+    "description": "",
+    "id": "get-the-total-number-of-movies-count-from-the-provided-api",
+    "keyword": "Feature",
+    "uri": "src/test/java/CucumberFiles/FeatureFiles/CountingMovies.feature"
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Use the Provided API Endpoint and get the movie titles then sort it in the ascending order",
+        "description": "",
+        "id": "get-the-movie-title-from-the-provided-api-and-arrange-in-the-ascending-order;use-the-provided-api-endpoint-and-get-the-movie-titles-then-sort-it-in-the-ascending-order;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5812427200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Build the API endpoint and verify the status code \"spiderman\" and \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spiderman",
+                  "offset": 51
+                },
+                {
+                  "val": "0",
+                  "offset": 67
+                }
+              ],
+              "location": "GetMovieTitle.build_the_API_endpoint_and_verify_the_status_code_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1490975700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Fetch the movie lists per page from the endpoint response \"spiderman\" and \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spiderman",
+                  "offset": 59
+                },
+                {
+                  "val": "0",
+                  "offset": 75
+                }
+              ],
+              "location": "GetMovieTitle.fetch_the_movie_lists_per_page_from_the_endpoint_response_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 301959800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Arrange the movie lists in ascending order \"spiderman\" and \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spiderman",
+                  "offset": 44
+                },
+                {
+                  "val": "0",
+                  "offset": 60
+                }
+              ],
+              "location": "GetMovieTitle.arrange_the_movie_lists_in_ascending_order_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Use the Provided API Endpoint and get the movie titles then sort it in the ascending order",
+        "description": "",
+        "id": "get-the-movie-title-from-the-provided-api-and-arrange-in-the-ascending-order;use-the-provided-api-endpoint-and-get-the-movie-titles-then-sort-it-in-the-ascending-order;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 240542200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Build the API endpoint and verify the status code \"spiderman\" and \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spiderman",
+                  "offset": 51
+                },
+                {
+                  "val": "1",
+                  "offset": 67
+                }
+              ],
+              "location": "GetMovieTitle.build_the_API_endpoint_and_verify_the_status_code_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 328546100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Fetch the movie lists per page from the endpoint response \"spiderman\" and \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spiderman",
+                  "offset": 59
+                },
+                {
+                  "val": "1",
+                  "offset": 75
+                }
+              ],
+              "location": "GetMovieTitle.fetch_the_movie_lists_per_page_from_the_endpoint_response_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 368497100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Arrange the movie lists in ascending order \"spiderman\" and \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spiderman",
+                  "offset": 44
+                },
+                {
+                  "val": "1",
+                  "offset": 60
+                }
+              ],
+              "location": "GetMovieTitle.arrange_the_movie_lists_in_ascending_order_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Use the Provided API Endpoint and get the movie titles then sort it in the ascending order",
+        "description": "",
+        "id": "get-the-movie-title-from-the-provided-api-and-arrange-in-the-ascending-order;use-the-provided-api-endpoint-and-get-the-movie-titles-then-sort-it-in-the-ascending-order;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 267766400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Build the API endpoint and verify the status code \"spiderman\" and \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spiderman",
+                  "offset": 51
+                },
+                {
+                  "val": "2",
+                  "offset": 67
+                }
+              ],
+              "location": "GetMovieTitle.build_the_API_endpoint_and_verify_the_status_code_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304493800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Fetch the movie lists per page from the endpoint response \"spiderman\" and \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spiderman",
+                  "offset": 59
+                },
+                {
+                  "val": "2",
+                  "offset": 75
+                }
+              ],
+              "location": "GetMovieTitle.fetch_the_movie_lists_per_page_from_the_endpoint_response_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262312400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Arrange the movie lists in ascending order \"spiderman\" and \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spiderman",
+                  "offset": 44
+                },
+                {
+                  "val": "2",
+                  "offset": 60
+                }
+              ],
+              "location": "GetMovieTitle.arrange_the_movie_lists_in_ascending_order_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get the Movie title from the Provided API and arrange in the ascending order",
+    "description": "",
+    "id": "get-the-movie-title-from-the-provided-api-and-arrange-in-the-ascending-order",
+    "keyword": "Feature",
+    "uri": "src/test/java/CucumberFiles/FeatureFiles/MovieTitle.feature"
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="8.189835">
+<testcase classname="Get the Total Number of Movies Count from the Provided API" name="Use the Provided API Endpoint and get the total number of movies count based on the movietitle" time="7.424312">
+<system-out><![CDATA[Given Build the API endpoint and verify the status code "maze"..............passed
+When Fetch the total movie count from the endpoint response "maze" and "97".passed
+And Fetch the total page count from the endpoint response "maze" and "10"...passed
+Then Validate the total movie counts "97"...................................passed
+And Validate the total page counts "10".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Get the Total Number of Movies Count from the Provided API" name="Use the Provided API Endpoint and get the total number of movies count based on the movietitle 2" time="0.765523">
+<system-out><![CDATA[Given Build the API endpoint and verify the status code "mazes".............passed
+When Fetch the total movie count from the endpoint response "mazes" and "0".passed
+And Fetch the total page count from the endpoint response "mazes" and "0"...passed
+Then Validate the total movie counts "0"....................................passed
+And Validate the total page counts "0"......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

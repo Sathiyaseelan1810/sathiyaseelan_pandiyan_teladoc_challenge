@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="9.377521">
+<testcase classname="Get the Movie title from the Provided API and arrange in the ascending order" name="Use the Provided API Endpoint and get the movie titles then sort it in the ascending order" time="7.605363">
+<system-out><![CDATA[Given Build the API endpoint and verify the status code "spiderman" and "0".passed
+When Fetch the movie lists per page from the endpoint response "spiderman" and "0".passed
+Then Arrange the movie lists in ascending order "spiderman" and "0".........passed
+]]></system-out>
+</testcase>
+<testcase classname="Get the Movie title from the Provided API and arrange in the ascending order" name="Use the Provided API Endpoint and get the movie titles then sort it in the ascending order 2" time="0.937585">
+<system-out><![CDATA[Given Build the API endpoint and verify the status code "spiderman" and "1".passed
+When Fetch the movie lists per page from the endpoint response "spiderman" and "1".passed
+Then Arrange the movie lists in ascending order "spiderman" and "1".........passed
+]]></system-out>
+</testcase>
+<testcase classname="Get the Movie title from the Provided API and arrange in the ascending order" name="Use the Provided API Endpoint and get the movie titles then sort it in the ascending order 3" time="0.834573">
+<system-out><![CDATA[Given Build the API endpoint and verify the status code "spiderman" and "2".passed
+When Fetch the movie lists per page from the endpoint response "spiderman" and "2".passed
+Then Arrange the movie lists in ascending order "spiderman" and "2".........passed
+]]></system-out>
+</testcase>
+</testsuite>
